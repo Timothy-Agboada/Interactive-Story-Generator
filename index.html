@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Story Generator</title>
+    <link rel="stylesheet" href="style.css"> <!-- Links CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>Your Awesome Story Generator!</h1>
+
+        <div class="input-area">
+            <label for="noun">Enter a Noun (e.g., dog, table):</label>
+            <input type="text" id="noun" placeholder="e.g., dragon">
+
+            <label for="adjective">Enter an Adjective (e.g., happy, big):</label>
+            <input type="text" id="adjective" placeholder="e.g., sleepy">
+
+            <label for="verb">Enter a Verb (ending in -ing, e.g., running):</label>
+            <input type="text" id="verb" placeholder="e.g., dancing">
+
+            <label for="place">Enter a Place (e.g., park, moon):</label>
+            <input type="text" id="place" placeholder="e.g., kitchen">
+            
+            <label for="sound">Enter a Funny Sound (e.g., boing, splat):</label>
+            <input type="text" id="sound" placeholder="e.g., Achoo!">
+        </div>
+
+        <button id="generateButton">Make a Story!</button>
+        <button id="resetButton">Reset</button>
+
+        <div class="story-output">
+            <h2>Your Amazing Story:</h2>
+            <p id="storyResult">Your story will appear here...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Links JavaScript file -->
+</body>
+</html>

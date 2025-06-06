@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark grey text */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.container {
+    background-color: #ffffff; /* White background for the main content box */
+    padding: 25px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+    width: 100%;
+    max-width: 600px; 
+    text-align: center; 
+}
+
+h1 {
+    color: #007bff; /* A nice blue */
+    margin-bottom: 20px;
+}
+
+.input-area label {
+    display: block; 
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left; 
+}
+
+.input-area input[type="text"] {
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Smooth color change on hover */
+}
+
+button#resetButton {
+    background-color: #dc3545; /* Red button for reset */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.story-output {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #e9ecef; /* Light grey background for the story */
+    border-radius: 5px;
+    border: 1px dashed #ccc;
+    text-align: left; 
+}
+
+.story-output h2 {
+    color: #5a6268;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+#storyResult {
+    font-size: 1.1em;
+    line-height: 1.6; 
+    color: #495057;
+}
