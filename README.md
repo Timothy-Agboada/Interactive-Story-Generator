@@ -25,7 +25,7 @@ To run this project on your local machine, follow these simple steps:
 
 1.  **Clone the repository (or download the code):**
     ```bash
-    git clone [https://github.com/timothy-agboada/interactive-story-generator.git](https://github.com/timothy-agboada/interactive-story-generator.git)
+    git clone https://github.com/timothy-agboada/interactive-story-generator.git
     ```
 
 2.  **Navigate to the project directory:**
